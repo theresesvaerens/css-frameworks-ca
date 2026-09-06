@@ -1,0 +1,26 @@
+{
+  "name": "css-frameworks-ca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch src/scss/styles.scss:css/styles.css",
+    "build": "sass src/scss/styles.scss:css/styles.css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theresesvaerens/css-frameworks-ca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/theresesvaerens/css-frameworks-ca/issues"
+  },
+  "homepage": "https://github.com/theresesvaerens/css-frameworks-ca#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.104.0"
+  }
+}
