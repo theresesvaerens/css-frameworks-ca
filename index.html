@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialApp – Sign in</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <div class="container d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card p-4 shadow-sm" style="max-width: 420px; width: 100%;">
+      <h1 class="h4 mb-3 text-center">Welcome to SocialApp</h1>
+
+      <form action="/profile" method="get">
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" class="form-control" id="password" name="password"
+                 required minlength="8" />
+          <div class="form-text">Minimum 8 characters.</div>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Log in / Register</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
