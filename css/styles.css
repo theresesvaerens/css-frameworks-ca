@@ -11859,5 +11859,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.card {
+  border: 1px solid #D8C7B2;
+}
+
+.card-body p.small {
+  color: #75665C;
+}
+
+.card h2.h6, .card .h6.h2 {
+  color: #B8895B;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #B8895B !important;
+}
 
 /*# sourceMappingURL=styles.css.map */

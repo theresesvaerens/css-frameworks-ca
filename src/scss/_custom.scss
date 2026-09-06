@@ -1,4 +1,16 @@
-$accent:     #B8895B;
-$surface:    #EDE2D2;
-$border:     #D8C7B2;
-$text-muted: #75665C;
+.card {
+  border: 1px solid $border;
+}
+
+.card-body p.small {
+  color: $text-muted;
+}
+
+.card h2.h6 {
+  color: $accent;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: $accent !important;
+}
