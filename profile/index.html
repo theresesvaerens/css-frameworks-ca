@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialApp – Profile</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">SocialApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../feed/index.html">Feed</a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+
+    <div class="d-flex align-items-center gap-3 mb-4 flex-wrap">
+      <img src="https://picsum.photos/id/66/100/100" class="rounded-circle" width="100" height="100" alt="Profile picture" />
+      <div>
+        <h1 class="h4 mb-1">@username</h1>
+        <div class="d-flex gap-3 text-muted small">
+          <span><strong>128</strong> Followers</span>
+          <span><strong>84</strong> Following</span>
+        </div>
+      </div>
+      <button class="btn btn-primary ms-md-auto">Follow</button>
+    </div>
+
+    <h2 class="h6 mb-3">Posts</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1025/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 24</span>
+              <span>💬 5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1050/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 17</span>
+              <span>💬 3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1069/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 52</span>
+              <span>💬 11</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

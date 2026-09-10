@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialApp – Feed</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">SocialApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Feed</a></li>
+          <li class="nav-item"><a class="nav-link" href="../profile/index.html">Profile</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container my-4">
+    <div class="row mb-4 g-2">
+      <div class="col-md-6">
+        <input type="search" class="form-control" placeholder="Search posts..." />
+      </div>
+      <div class="col-md-3">
+        <select class="form-select">
+          <option>Newest</option>
+          <option>Oldest</option>
+          <option>Most liked</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="card p-3 mb-4">
+      <h2 class="h6">Create a new post</h2>
+      <form>
+        <div class="mb-2">
+          <textarea class="form-control" rows="2" placeholder="What's on your mind?"></textarea>
+        </div>
+        <div class="mb-2">
+          <label for="postImage" class="form-label">Add image</label>
+          <input type="file" class="form-control" id="postImage" accept="image/*" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm">Post</button>
+      </form>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1015/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/64/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@johndoe</span>
+            </div>
+            <p class="small mb-2">Golden hour hits different 🌅</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 24</span>
+              <span>💬 5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1035/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/91/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@janedoe</span>
+            </div>
+            <p class="small mb-2">Weekend hike done right 🥾</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 12</span>
+              <span>💬 2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1043/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/177/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@mia_k</span>
+            </div>
+            <p class="small mb-2">Coffee and code ☕️</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 47</span>
+              <span>💬 9</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1050/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/203/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@alex99</span>
+            </div>
+            <p class="small mb-2">New setup, who dis 🎮</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 8</span>
+              <span>💬 1</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1060/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/219/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@sophia_r</span>
+            </div>
+            <p class="small mb-2">City lights never get old ✨</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 63</span>
+              <span>💬 14</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="https://picsum.photos/id/1074/400/250" class="card-img-top" alt="Post thumbnail" />
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img src="https://picsum.photos/id/237/32/32" class="rounded-circle" width="32" height="32" alt="User avatar" />
+              <span class="fw-semibold small">@leo_m</span>
+            </div>
+            <p class="small mb-2">Best boy of the week 🐶</p>
+            <div class="d-flex gap-3 text-muted small">
+              <span>❤ 31</span>
+              <span>💬 6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
